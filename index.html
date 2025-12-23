@@ -273,27 +273,53 @@
                     <p class="text-gray-600">Led team to runner-up position</p>
                 </div>
                 
-                <!-- Achievement 5 (Clickable Card) -->
+                <!-- Achievement 5 (YouTube Highlighted Card) -->
 <a href="https://www.youtube.com/watch?v=tkXsNNWjPSo"
    target="_blank"
    rel="noopener noreferrer"
-   class="block">
+   class="block group">
 
-    <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow transform hover:-translate-y-1 cursor-pointer">
-        <div class="text-blue-600 mb-4">
-            <i data-feather="mic" class="w-10 h-10"></i>
+    <div class="relative bg-white p-6 rounded-xl shadow-lg
+                border-2 border-red-600
+                ring-2 ring-red-500 ring-offset-2
+                hover:ring-4 hover:ring-red-600
+                hover:shadow-2xl
+                transition-all duration-300
+                transform hover:-translate-y-2 cursor-pointer">
+
+        <!-- YouTube glow -->
+        <div class="absolute inset-0 rounded-xl bg-red-600 opacity-5 blur-xl group-hover:opacity-25 transition"></div>
+
+        <div class="relative">
+            <div class="flex items-center justify-between mb-4">
+                <div class="text-red-600">
+                    <i data-feather="mic" class="w-10 h-10"></i>
+                </div>
+
+                <!-- Play badge -->
+                <span class="flex items-center gap-1 text-xs font-bold text-red-600 bg-red-100 px-3 py-1 rounded-full">
+                    ▶ YouTube
+                </span>
+            </div>
+
+            <h3 class="text-xl font-bold mb-2 text-gray-900">
+                Featured Guest – OctaJump 2025
+            </h3>
+
+            <p class="text-gray-700">
+                Guided students on career paths and admissions
+            </p>
+
+            <!-- CTA -->
+            <span class="inline-block mt-3 text-sm font-semibold text-red-600 group-hover:underline">
+                Watch on YouTube →
+            </span>
         </div>
 
-        <h3 class="text-xl font-semibold mb-2 text-gray-800">
-            Featured Guest – OctaJump 2025
-        </h3>
-
-        <p class="text-gray-600">
-            Guided students on career paths and admissions
-        </p>
     </div>
 
 </a>
+
 
                 
                 <!-- Achievement 6 (Highly Highlighted Clickable Card) -->
@@ -334,6 +360,7 @@
 
     </div>
 </a>
+
 
 
 
